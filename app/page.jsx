@@ -1,5 +1,15 @@
+import SideBar from './Components/SideBar'
+import HomePage from './Components/Home'
+import Footer from './Components/Footer'
+
 export default function Home() {
 	return (
-		<main className='flex flex-col items-center justify-between min-h-screen p-24'></main>
+		<>
+			<div id='app' className='h-screen gap-2 p-2 realative'>
+				<SideBar />
+				<HomePage />
+				<Footer />
+			</div>
+		</>
 	)
 }
