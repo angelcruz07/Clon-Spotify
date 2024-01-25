@@ -1,7 +1,5 @@
 export async function getData(type, query, limit = 6) {
-	const url =
-		process.env.DB_HOST +
-		`?q=${query}&type=${type}&offset=0&limit=${limit}&numberOfTopResults=6`
+	const url = `https://spotify23.p.rapidapi.com/search/?q=${query}&type=${type}&offset=0&limit=${limit}&numberOfTopResults=6`
 	const options = {
 		method: 'GET',
 		headers: {
