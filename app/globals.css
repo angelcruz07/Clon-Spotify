@@ -17,6 +17,7 @@
 }
 html {
 	overflow: hidden;
+	color: #fff;
 }
 #app {
 	display: grid;
