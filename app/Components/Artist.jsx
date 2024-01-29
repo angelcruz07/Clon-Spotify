@@ -10,7 +10,7 @@ async function Artist() {
 	return (
 		<article className='mt-5'>
 			<h2 className='mb-4 text-2xl font-bold'>Artistas</h2>
-			<div className='flex flex-wrap gap-4'>
+			<div className='flex flex-wrap justify-between gap-3'>
 				{artists.map(({ data }) => (
 					<CardArtist
 						key={data.uri}

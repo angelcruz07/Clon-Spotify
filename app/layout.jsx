@@ -5,8 +5,15 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-	title: 'Clon spotify',
-	description: 'This is a project for mastermind '
+	title: 'Spotyclon',
+	description: 'This is a project for mastermind ',
+	icons: {
+		icon: [
+			{
+				url: '/img/icono.webp'
+			}
+		]
+	}
 }
 
 export default function RootLayout({ children }) {

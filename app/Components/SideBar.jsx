@@ -5,7 +5,7 @@ import PlayList from './PlayList'
 import { getData } from '../services/fetchData'
 
 async function SideBar() {
-	const limit = 9
+	const limit = 6
 	const typeData = 'playlist'
 	const query = 'regional-mexicano'
 
@@ -14,9 +14,9 @@ async function SideBar() {
 
 	return (
 		<>
-			<aside className='h-auto rounded-lg bg-spotify-black [grid-area:aside] flex flex-col overflow-y-auto gap-y-2 scroll-smooth '>
+			<aside className='h-full rounded-lg bg-spotify-black [grid-area:aside] flex flex-col overflow-y-auto gap-y-2 scroll-smooth '>
 				<ListSideBar />
-				<article className='h-auto p-3 rounded-lg bg-spotify-gray'>
+				<article className='h-full p-3 rounded-lg bg-spotify-gray'>
 					<YourLibrary />
 					<div className='flex flex-row mt-5 gap-x-2'>
 						<Badge text='Playlist' />

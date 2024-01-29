@@ -14,7 +14,7 @@
 		},
 		{
 			"id": 3,
-			"color": "#8400e7",
+			"color": "#b06239",
 			"name": "Musica mexicana",
 			"img": "/img/mexicana.jpeg"
 		},
@@ -32,9 +32,33 @@
 		},
 		{
 			"id": 6,
-			"color": "#b06239",
+			"color": "#8400e7",
 			"name": "Creados por ti",
 			"img": "/img/porti.jpg"
+		},
+		{
+			"id": 7,
+			"color": "#27856a",
+			"name": "Merch",
+			"img": "/img/merch.jpeg"
+		},
+		{
+			"id": 8,
+			"color": "#503750",
+			"name": "Hip Hop",
+			"img": "/img/hiphop.jpeg"
+		},
+		{
+			"id": 9,
+			"color": "#148a08",
+			"name": "Pop",
+			"img": "/img/pop.jpeg"
+		},
+		{
+			"id": 10,
+			"color": "#8e66ac",
+			"name": "Top",
+			"img": "/img/top.jpeg"
 		}
 	]
 }

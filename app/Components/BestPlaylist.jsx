@@ -10,7 +10,7 @@ async function BestPlaylist() {
 	return (
 		<article className='mt-5'>
 			<h2 className='mb-4 text-2xl font-bold '>Mejores playlist</h2>
-			<div className='flex flex-wrap gap-4 '>
+			<div className='flex flex-wrap justify-between gap-3 '>
 				{playlist.map(({ data }) => (
 					<CardPlaylist
 						key={data.uri}
