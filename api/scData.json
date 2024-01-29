@@ -1,0 +1,40 @@
+{
+	"category": [
+		{
+			"id": 1,
+			"color": "#dc148c",
+			"name": "Musica",
+			"img": ""
+		},
+		{
+			"id": 2,
+			"color": "#006450",
+			"name": "Podcast",
+			"img": ""
+		},
+		{
+			"id": 3,
+			"color": "#8400e7",
+			"name": "Eventos en vivo",
+			"img": ""
+		},
+		{
+			"id": 4,
+			"color": "#1e3264",
+			"name": "Nuevos lanzamientos",
+			"img": ""
+		},
+		{
+			"id": 5,
+			"color": "#e8115b",
+			"name": "Latina",
+			"img": ""
+		},
+		{
+			"id": 6,
+			"color": "#b06239",
+			"name": "Creados por ti",
+			"img": ""
+		}
+	]
+}
