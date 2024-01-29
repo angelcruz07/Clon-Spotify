@@ -1,6 +1,6 @@
 function Badge({ text }) {
 	return (
-		<span class='text-center text-sm block p-2 rounded-full w-20 bg-spotify-lightgray border-x-white text-white hover:bg-spotify-lightgrayHover cursor-pointer '>
+		<span className='block w-20 p-2 text-sm text-center text-white rounded-full cursor-pointer bg-spotify-lightgray border-x-white hover:bg-spotify-lightgrayHover '>
 			{text}
 		</span>
 	)

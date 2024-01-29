@@ -30,6 +30,7 @@ async function HomePage() {
 					<article className='grid grid-cols-3 gap-2 mt-5 '>
 						{albums.map(({ data }) => (
 							<Banner
+								name={data.name}
 								img={data.coverArt.sources[1].url}
 								key={data.uri}
 								text={data.name}
