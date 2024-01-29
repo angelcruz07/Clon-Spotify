@@ -13,6 +13,7 @@ async function Search() {
 							key={category.id}
 							name={category.name}
 							color={category.color}
+							img={category.img}
 						/>
 					))}
 				</article>

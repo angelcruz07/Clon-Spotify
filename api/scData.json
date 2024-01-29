@@ -4,37 +4,37 @@
 			"id": 1,
 			"color": "#dc148c",
 			"name": "Musica",
-			"img": ""
+			"img": "/img/musica.jpeg"
 		},
 		{
 			"id": 2,
 			"color": "#006450",
 			"name": "Podcast",
-			"img": ""
+			"img": "/img/podcast.jpeg"
 		},
 		{
 			"id": 3,
 			"color": "#8400e7",
-			"name": "Eventos en vivo",
-			"img": ""
+			"name": "Musica mexicana",
+			"img": "/img/mexicana.jpeg"
 		},
 		{
 			"id": 4,
 			"color": "#1e3264",
 			"name": "Nuevos lanzamientos",
-			"img": ""
+			"img": "/img/nuevos.jpeg"
 		},
 		{
 			"id": 5,
 			"color": "#e8115b",
 			"name": "Latina",
-			"img": ""
+			"img": "/img/latina.jpeg"
 		},
 		{
 			"id": 6,
 			"color": "#b06239",
 			"name": "Creados por ti",
-			"img": ""
+			"img": "/img/porti.jpg"
 		}
 	]
 }

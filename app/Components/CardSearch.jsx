@@ -1,4 +1,4 @@
-function CardSearch({ name, color }) {
+function CardSearch({ name, color, img }) {
 	const colorBG = { backgroundColor: color }
 	return (
 		<a
@@ -8,6 +8,13 @@ function CardSearch({ name, color }) {
 			<div className='flex flex-col flex-auto '>
 				<h4 className='text-2xl font-semibold text-white'>{name}</h4>
 			</div>
+			<picture className='flex-none w-full h-auto aspect-square'>
+				<img
+					src={img}
+					alt={name}
+					className='absolute bottom-0 right-[-6px] object-cover w-20 transform rotate-12'
+				/>
+			</picture>
 		</a>
 	)
 }
