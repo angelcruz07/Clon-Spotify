@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
 	title: 'Spotyclon',
-	description: 'This is a project for mastermind ',
+	description: 'This is a project for mastermind',
 	icons: {
 		icon: [
 			{

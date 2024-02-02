@@ -1,5 +1,5 @@
 export async function getCategory() {
-	const url = 'http://localhost:4000/category'
+	const url = process.env.DB_API
 
 	const res = await fetch(url)
 	if (!res.ok) {
